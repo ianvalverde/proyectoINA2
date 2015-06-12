@@ -27,8 +27,8 @@
 
 .wrapper {
 	width: 1024px;
-	margin: 0px;
+	margin: 0px auto;
 	padding: 0px;
-} 
+}
 
 /*End global styles*/
