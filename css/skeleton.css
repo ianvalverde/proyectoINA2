@@ -78,13 +78,24 @@ nav ul li a{
 	float: right;
 	width: 500px;
 	color: #ffffff;
+	margin-bottom: 300px;
 }
 #segColor h2 {
 	font-size: 40px;
 	margin: 0px;
 }
-#segColor a {
+#contWhite {
+	height: 400px;
+	background-color: #ffffff;
 }
+#contWhite h3, #contWhite p{
+	margin: 0 auto;
+	width: 860px;
+}
+#contWhite img{
+	margin: 0 auto;
+}
+
 .blackRiver{
 	height: 497px;
 	background: url("../img/blackRiverBG.jpg") no-repeat;
