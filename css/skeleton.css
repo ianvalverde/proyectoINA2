@@ -35,6 +35,11 @@ body{
 	margin: 0px auto;
 	padding: 0px;
 }
+.wrapper div{
+	width: 100%;
+	float: left;
+}
+
 header h1 a {
 	width: 115px;
 	height: 75px;
