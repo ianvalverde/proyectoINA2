@@ -28,6 +28,7 @@
 body{
 	background: url("../img/bgSite.jpg") no-repeat;
 	background-position:top center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -73,5 +74,20 @@ nav ul li a{
 	margin-left: 670px;
 	margin-top: 130px
 }
+
+.blackRiver{
+	height: 497px;
+	background: url("../img/blackRiverBG.jpg") no-repeat;
+}
+.blackRiver p{
+	text-align: center;
+	color: #fff;
+	font-size: 42px;
+	width: 500px;
+	padding: 170px 0 0;
+	margin: 0 auto;
+	font-weight: lighter;
+}
+
 
 /*End content styles*/
