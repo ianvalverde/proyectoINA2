@@ -30,5 +30,25 @@
 	margin: 0px auto;
 	padding: 0px;
 }
+header h1 a {
+	width: 115px;
+	height: 75px;
+	text-indent: -9999px;
+	background-image: url(../img/);
+	clear: none;
+	float: left;
+	background-size: 100%;
+}
+nav{
+  float: right;
+}
+nav ul li {
+  float: left;
+  list-style-type: none;
+}
+nav ul li a{
+  margin: 0 20px;
+  text-decoration: none;
+}
 
 /*End global styles*/
