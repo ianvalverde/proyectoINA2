@@ -40,6 +40,9 @@ body{
 	float: left;
 }
 
+
+/*End global styles*/
+
 header h1 a {
 	width: 115px;
 	height: 75px;
@@ -61,4 +64,14 @@ nav ul li a{
   text-decoration: none;
 }
 
-/*End global styles*/
+/*End header styles*/
+
+#segColor {
+	height: 420px;
+}
+#segColor h2 {
+	margin-left: 670px;
+	margin-top: 130px
+}
+
+/*End content styles*/
