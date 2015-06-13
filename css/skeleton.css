@@ -25,6 +25,11 @@
 - Media Queries
 */
 
+body{
+	background: url("../img/bgSite.jpg") no-repeat;
+	background-position:top center;
+}
+
 .wrapper {
 	width: 1024px;
 	margin: 0px auto;
