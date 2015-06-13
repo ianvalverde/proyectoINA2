@@ -68,13 +68,18 @@ nav ul li a{
 /*End header styles*/
 
 #segColor {
-	height: 420px;
+	float: right;
+	width: 500px;
+	color: #ffffff;
 }
 #segColor h2 {
-	margin-left: 670px;
-	margin-top: 130px
+	font-size: 40px;
+	margin: 0px;
 }
-
+#segColor p {
+}
+#segColor a {
+}
 .blackRiver{
 	height: 497px;
 	background: url("../img/blackRiverBG.jpg") no-repeat;
