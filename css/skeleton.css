@@ -86,48 +86,55 @@ nav ul li a{
 	margin: 0px;
 }
 #contWhite {
-	height: 400px;
+	height: 440px;
 	background-color: #ffffff;
 }
 #contWhite h3, #contWhite p{
-	margin: 0 auto;
+	margin: 30px auto;
 	width: 860px;
+	margin-bottom: 25px;
+	font-weight: 300;
+}
+#contWhite h3 {
+	font-size: 1.8em
+}
+#contWhite p{
+	font-size: 14px
 }
 #contWhite img{
-	margin: 0 auto;
+	margin: 30px 0 0 86px;
+
 }
-div div#cuadroClr1 {
-	width: 30%;
-	height: 200px;
-	float: left;
+#content div > div {
+	width: 30.33%;
+	color: #ffffff;
+	padding: 1% 1% 1% 2%;
+}
+#cuadroClr1{
 	background-color: #404040;
-	text-align: justify;
-	padding: 10px 10px
 }
-div div#cuadroClr1 h4 {
-	margin-left: 40px
-}
-div div#cuadroClr2 {
-	width: 34.1%;
-	height: 200px;
-	float: left;
+#cuadroClr2{
 	background-color: #f74c55;
-	text-align: justify;
-	padding: 10px 10px
 }
-div div#cuadroClr2 h4 {
-	margin-left: 40px
-}
-div div#cuadroClr3 {
-	width: 30%;
-	height: 200px;
-	float: left;
+#cuadroClr3{
 	background-color: #2d5f3b;
-	text-align: justify;
-	padding: 10px 10px
 }
-div div#cuadroClr3 h4 {
+#cuadroClr1 h4, #cuadroClr2 h4, #cuadroClr3 h4{
+	font-weight: 300;
+	font-size: 22px;
 	margin-left: 40px
+}
+#cuadroClr1 p, #cuadroClr2 p, #cuadroClr3 p {
+	font-weight: 300;
+	font-size: 14px;
+}
+#content div > div > h4 > span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #000000;
+	clear: none;
+	float: left;
 }
 .blackRiver{
 	height: 497px;
@@ -148,10 +155,10 @@ div div#cuadroClr3 h4 {
 	display: block;
 	width: 100px;
 }
+/*End content styles*/
 footer div p {
 	width: 100%;
 	text-align: center;
 	font-size: 0.8em
 }
-
-/*End content styles*/
+/*End footer styles*/
