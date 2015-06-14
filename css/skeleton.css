@@ -36,7 +36,7 @@ body{
 	margin: 0px auto;
 	padding: 0px;
 }
-.wrapper div{
+.wrapper div, footer{
 	width: 100%;
 	float: left;
 }
@@ -48,7 +48,14 @@ a.bottJoin {
 	text-decoration: none;
 	color: #ffffff;
 }
+.more {
+	width: 35px;
+	height: 32px;
+	background-color: #000000;
+	text-indent: -99999px;
+	display: block;
 
+}
 /*End global styles*/
 
 header h1 a {
@@ -86,7 +93,7 @@ nav ul li a{
 	margin: 0px;
 }
 #contWhite {
-	height: 440px;
+	height: 340px;
 	background-color: #ffffff;
 }
 #contWhite h3, #contWhite p{
@@ -110,6 +117,26 @@ nav ul li a{
 	color: #ffffff;
 	padding: 1% 1% 1% 2%;
 }
+#content div > div h4{
+	font-weight: 300;
+	font-size: 22px;
+	margin-left: 10px
+}
+#content div > div p{
+	font-weight: 300;
+	font-size: 14px;
+}
+#content div > div > h4 > span {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: #000000;
+	clear: none;
+	float: left;
+	margin-top: 3px;
+	margin-right: 15px
+}
+
 #cuadroClr1{
 	background-color: #404040;
 }
@@ -119,23 +146,7 @@ nav ul li a{
 #cuadroClr3{
 	background-color: #2d5f3b;
 }
-#cuadroClr1 h4, #cuadroClr2 h4, #cuadroClr3 h4{
-	font-weight: 300;
-	font-size: 22px;
-	margin-left: 40px
-}
-#cuadroClr1 p, #cuadroClr2 p, #cuadroClr3 p {
-	font-weight: 300;
-	font-size: 14px;
-}
-#content div > div > h4 > span {
-	display: block;
-	width: 20px;
-	height: 20px;
-	background-color: #000000;
-	clear: none;
-	float: left;
-}
+
 .blackRiver{
 	height: 497px;
 	background: url("../img/blackRiverBG.jpg") no-repeat;
@@ -156,9 +167,16 @@ nav ul li a{
 	width: 100px;
 }
 /*End content styles*/
-footer div p {
+footer {
+	background-image: url('../img/colores.png');
+	background-repeat: repeat-x;
+	background-position: 0 -25px
+}
+footer p {
 	width: 100%;
 	text-align: center;
-	font-size: 0.8em
+	font-size: 0.8em;
+	margin: 0 auto;
+	padding: 20px 0 10px 0;
 }
 /*End footer styles*/
