@@ -51,21 +51,45 @@ a.bottJoin {
 .more {
 	width: 35px;
 	height: 32px;
-	background-color: #000000;
 	text-indent: -99999px;
 	display: block;
-
+	background: url('../img/icons.png');
+	background-position: -27px -307px;
 }
+.icon{
+	display: block;
+	width: 39px;
+	height: 37px;
+	background: url('../img/icons.png');
+	clear: none;
+	float: left;
+}
+
+.statisticUpIcon{
+	background-position: -22px -32px;
+}
+.iPadPotraitLandscapeIcon{
+	background-position: -27px -118px;
+}
+.uploadIcon{
+	background-position: -26px -205px;
+}
+
 /*End global styles*/
+
+header h1{
+	margin: 0 0 0;
+}
 
 header h1 a {
 	width: 115px;
 	height: 75px;
 	text-indent: -9999px;
-	background-image: url(../img/);
+	background: url('../img/logo.png') no-repeat;
 	clear: none;
 	float: left;
 	background-size: 100%;
+	background-position: 0px 4px;
 }
 nav{
   float: right;
@@ -125,16 +149,16 @@ nav ul li a{
 #content div > div p{
 	font-weight: 300;
 	font-size: 14px;
+	margin: 0 0 10px 0;
 }
-#content div > div > h4 > span {
-	display: block;
-	width: 25px;
-	height: 25px;
-	background-color: #000000;
-	clear: none;
-	float: left;
+#content div > div span{
 	margin-top: 3px;
-	margin-right: 15px
+	margin-right: 5px;
+}
+
+#content div > div .more{
+	float: right;
+	margin: 0 0 20px 0;
 }
 
 #cuadroClr1{
