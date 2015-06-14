@@ -70,6 +70,7 @@ nav ul li {
 nav ul li a{
   margin: 0 20px;
   text-decoration: none;
+  color: #ffffff;
 }
 
 /*End header styles*/
@@ -95,7 +96,39 @@ nav ul li a{
 #contWhite img{
 	margin: 0 auto;
 }
-
+div div#cuadroClr1 {
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-color: #404040;
+	text-align: justify;
+	padding: 10px 10px
+}
+div div#cuadroClr1 h4 {
+	margin-left: 40px
+}
+div div#cuadroClr2 {
+	width: 34.1%;
+	height: 200px;
+	float: left;
+	background-color: #f74c55;
+	text-align: justify;
+	padding: 10px 10px
+}
+div div#cuadroClr2 h4 {
+	margin-left: 40px
+}
+div div#cuadroClr3 {
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-color: #2d5f3b;
+	text-align: justify;
+	padding: 10px 10px
+}
+div div#cuadroClr3 h4 {
+	margin-left: 40px
+}
 .blackRiver{
 	height: 497px;
 	background: url("../img/blackRiverBG.jpg") no-repeat;
@@ -115,6 +148,10 @@ nav ul li a{
 	display: block;
 	width: 100px;
 }
-
+footer div p {
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em
+}
 
 /*End content styles*/
