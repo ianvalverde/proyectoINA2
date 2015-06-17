@@ -158,9 +158,11 @@ nav ul li a{
 
 #content div > div .more{
 	float: right;
-	margin: 0 0 20px 0;
+	margin: 15px 30px 20px 15px;
 }
-
+#content div > div .more:hover {
+	opacity: 0.7;
+}
 #cuadroClr1{
 	background-color: #404040;
 }
@@ -190,6 +192,36 @@ nav ul li a{
 	display: block;
 	width: 100px;
 }
+/*CONTACTENOS*/
+#contWhite2{
+	height: 700px;
+	background-color: #ffffff;
+}
+#formulario h3 {
+  	margin-left: 5px;
+  	font-family:Arial;
+  	color: #000000;
+}
+label {
+	color:#000000;
+  	display: block;
+  	margin: 10px 0px 10px 5px
+}
+input, textarea{
+	margin-left: 20px;
+	border-radius: 5px;
+	color:#000000;
+}
+#btnBorrar, #btnEnviar {
+    border: none;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: arial;
+    color: #000000;
+}
+/*FIN DE CONTACTENOS*/
 /*End content styles*/
 footer {
 	background-image: url('../img/colores.png');
